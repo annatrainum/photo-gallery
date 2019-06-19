@@ -1,0 +1,33 @@
+body {
+  background-color: #F7E9FF;
+}
+.text {
+  font-family: 'Barrio', cursive;
+  text-align: center;
+  font-size: 100px
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  display:block;
+}
+
+img {
+  width: 175px;
+  height: 175px;
+  align-items: center;
+  object-fit: cover;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    color: #F7E9FF;
+    background-color: black;
+  }
+}
